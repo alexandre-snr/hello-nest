@@ -153,7 +153,7 @@ Project Link: [https://github.com/alexandre-snr/hello-nest](https://github.com/a
 [stars-url]: https://github.com/alexandre-snr/hello-nest/stargazers
 [issues-shield]: https://img.shields.io/github/issues/alexandre-snr/hello-nest.svg?style=for-the-badge
 [issues-url]: https://github.com/alexandre-snr/hello-nest/issues
-[license-shield]: https://img.shields.io/github/license/alexandre-snr/hello-nest.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/alexandre-snr/hello-nest?style=for-the-badge
 [license-url]: https://github.com/alexandre-snr/hello-nest/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/alexandre-sauner
