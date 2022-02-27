@@ -1,0 +1,24 @@
+version: '3.1'
+
+services:
+
+  api:
+    build: .
+    ports:
+      - 3000:3000
+    networks:
+      - tier_backend
+    environment:
+      - DATABASE_HOST=db
+      - SECRET=^7x*D3n5ps!tYP79D^2!@q*@
+
+  db:
+    image: mariadb
+    restart: always
+    networks:
+      - tier_backend
+    environment:
+      MARIADB_ROOT_PASSWORD: root
+
+networks:
+  tier_backend:
