@@ -1,73 +1,160 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
-</p>
+<div id="top"></div>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/alexandre-snr/hello-nest">
+    <img src="images/logo.png" alt="Logo" width="80">
+  </a>
 
-## Installation
+<h3 align="center">Hello-Nest</h3>
 
-```bash
-$ npm install
-```
+  <p align="center">
+    A simple todolist API using NestJS
+    <br />
+    <a href="https://github.com/alexandre-snr/hello-nest"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/alexandre-snr/hello-nest/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/alexandre-snr/hello-nest/issues">Request Feature</a>
+  </p>
+</div>
 
-## Running the app
 
-```bash
-# development
-$ npm run start
 
-# watch mode
-$ npm run start:dev
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-# production mode
-$ npm run start:prod
-```
 
-## Test
 
-```bash
-# unit tests
-$ npm run test
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-# e2e tests
-$ npm run test:e2e
+It is a simple learning project to get confortable with NestJS. It features authentication using JWT tokens and stores data using TypeORM.
 
-# test coverage
-$ npm run test:cov
-```
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-## Support
+### Built With
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+* [NestJS](https://nestjs.com)
 
-## Stay in touch
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
+<!-- GETTING STARTED -->
+## Getting Started
+
+### Prerequisites
+
+* Docker
+* Docker-Compose
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/alexandre-snr/hello-nest.git
+   ```
+4. Start the project using Docker-Compose
+   ```sh
+   docker-compose up -d --build
+   ```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+- [X] Working project
+
+See the [open issues](https://github.com/alexandre-snr/hello-nest/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
 ## License
 
-Nest is [MIT licensed](LICENSE).
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Alexandre Sauner - alexandre.snr@icloud.com
+
+Project Link: [https://github.com/alexandre-snr/hello-nest](https://github.com/alexandre-snr/hello-nest)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/alexandre-snr/hello-nest.svg?style=for-the-badge
+[contributors-url]: https://github.com/alexandre-snr/hello-nest/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/alexandre-snr/hello-nest.svg?style=for-the-badge
+[forks-url]: https://github.com/alexandre-snr/hello-nest/network/members
+[stars-shield]: https://img.shields.io/github/stars/alexandre-snr/hello-nest.svg?style=for-the-badge
+[stars-url]: https://github.com/alexandre-snr/hello-nest/stargazers
+[issues-shield]: https://img.shields.io/github/issues/alexandre-snr/hello-nest.svg?style=for-the-badge
+[issues-url]: https://github.com/alexandre-snr/hello-nest/issues
+[license-shield]: https://img.shields.io/github/license/alexandre-snr/hello-nest.svg?style=for-the-badge
+[license-url]: https://github.com/alexandre-snr/hello-nest/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/alexandre-sauner
+
